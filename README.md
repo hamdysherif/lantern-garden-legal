@@ -1,49 +1,66 @@
-# Legal documents — Lantern Garden
+# Lantern Garden — Support
 
-Store-ready drafts. Fill the placeholders, host them, and paste the URLs into both
-stores. **Not legal advice** — consider a lawyer review for a paid, ad-supported app.
+Thanks for playing **Lantern Garden**, a cozy tap-to-rotate light puzzle. We're
+happy to help with anything — questions, purchases, bugs, or feedback.
 
-Files:
-- `privacy-policy.md` — **required** by Apple & Google.
-- `terms-of-use.md` — Terms of Use / EULA (optional for Apple if you use its
-  standard EULA; recommended for Google).
-- `app-ads.txt` — authorized-sellers file (host at your domain root; set your
-  AdMob publisher ID).
+## Contact us
 
-## 1. Fill these placeholders (both docs)
+Email **[lanterngarden.app@gmail.com](mailto:lanterngarden.app@gmail.com)** and
+we'll get back to you, usually within **2–3 business days**.
 
-| Placeholder | What to put |
-|---|---|
-| `<Legal entity or developer name>` | Your company or personal developer name |
-| `<privacy@yourdomain.com>` / `<support@yourdomain.com>` | A real, monitored email |
-| `<YYYY-MM-DD>` | The effective date you publish |
-| `<your country/state>` | Governing-law jurisdiction (Terms §12) |
+To help us help you faster, please include:
 
-## 2. Host them at public HTTPS URLs
+- Your device model and iOS version (e.g. iPhone 15, iOS 18).
+- The app version (shown at the bottom of the in-game **Settings** screen).
+- A short description of what happened, and a screenshot if you can.
 
-Both stores need **live, login-free web pages** (not a bare file download).
+## Frequently asked questions
 
-Free via **GitHub Pages**:
-1. Create a public repo (e.g. `lantern-garden-legal`).
-2. Add `privacy.html` and `terms.html` (convert the `.md` — GitHub Pages renders
-   Markdown too if you enable Jekyll, or paste into a minimal HTML page).
-3. Settings → Pages → Source = `main` / root → Save.
-4. URLs: `https://<you>.github.io/lantern-garden-legal/privacy.html` (and `/terms.html`).
+### How do I restore a purchase (e.g. Remove Ads) on a new device?
+Open **Settings** inside the game and tap **Restore Purchases**. Non-consumable
+purchases like *Remove Ads* are restored to any device signed in with the same
+Apple ID. If it doesn't restore, email us.
 
-Alternatives: a Google Site, a public Notion page, or your own domain.
+### I bought coins or a bundle but didn't receive them.
+Purchases are delivered by the App Store. If you were charged but the items
+weren't applied, first try **Settings → Restore Purchases**. If they still don't
+appear, email us with the approximate purchase date and the product you bought,
+and we'll sort it out.
 
-## 3. Where each URL goes
+### How do I remove ads?
+Buy **Remove Ads** in the Shop (or make any other purchase — that also removes
+ads). Rewarded ads (like "Watch for +moves") always stay optional and are never
+forced.
 
-| URL | App Store Connect | Play Console | In-app |
-|---|---|---|---|
-| Privacy Policy | App Privacy → **Privacy Policy URL** | App content → **Privacy policy** | Settings link (task **B1**) |
-| Terms of Use | (optional) EULA field, or leave blank for Apple's standard EULA | Store listing / in-app | Settings link (task **B1**) |
+### I tapped "Watch for +moves" and no ad played.
+Rewarded ads aren't always available. If none is ready, nothing is charged — you
+can use coins instead, or try again shortly. This is normal.
 
-Give me the two hosted URLs and I'll wire the in-app Settings links (task **B1**).
+### How do hearts (lives) work?
+Starting a level spends one heart. Hearts refill over time on their own, and you
+can also refill them with coins or a rewarded ad. The daily challenge doesn't
+cost a heart.
 
-## 4. Keep them in sync (avoids rejection)
+### Can I change the language?
+Lantern Garden supports **English** and **العربية** (with full right-to-left
+layout). The game follows your device language; you can also change it in
+**Settings**.
 
-The policy text **must match** your **Play Data Safety** form and **Apple App
-Privacy** labels. If the policy lists the advertising ID / analytics / crash logs /
-purchases, declare the same in both consoles — and vice versa. Update all three
-together whenever you add or remove an SDK.
+### Is the game playable offline?
+Yes. You can play without an internet connection. Some features (ads, syncing
+leaderboards) need a connection when available.
+
+### How do I delete my data?
+Lantern Garden doesn't require an account, and your progress is stored on your
+device — deleting the app removes it. If you'd like anything associated with your
+device removed from our analytics/crash providers, email us and we'll help.
+
+## Privacy & terms
+
+- [Privacy Policy](privacy.html)
+- [Terms of Use](terms.html)
+
+---
+
+*Lantern Garden · Developer: Hamdy Mokhtar Sherif ·
+[lanterngarden.app@gmail.com](mailto:lanterngarden.app@gmail.com)*
